@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rafael Marques - Reserve suas landing pages!</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <!--Cabecalho-->
+    <header class="cabecalho">
+      <img id="logo-cabecalho" src="imagens/logo.png" alt="Logo de Rafael" />
+      <nav class="cabecalho-menu">
+        <a id="topo"></a>
+        <ul class="list">
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#portifolio">Portifólio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Conteudo Principal-->
+    <main>
+      <section class="container">
+        <div class="conteudo">
+          <h1 class="container-title2">Rafael Marques</h1>
+          <h2 class="container-subtitle">
+            Landing Pages com preços acessíveis!
+          </h2>
+        </div>
+        <img
+          class="container-imagem"
+          src="imagens/Rafael.png"
+          alt="Foto de Rafael"
+        />
+      </section>
+
+      <section class="container">
+        <div class="conteudo">
+          <h2 id="servicos" class="container-title">O que eu faço por você?</h2>
+          <ol>
+            <li class="container-paragrafo">
+              1. <strong>Crio</strong> landing pages pra você, com<br />
+              um preço acessível e de forma rápida!
+            </li>
+            <li class="container-paragrafo">
+              2. <strong>Auxílio</strong> na sua primeira criação de<br />
+              landing pages, fico 100% a sua disposição!
+            </li>
+            <li class="container-paragrafo">
+              3. <strong>Ofereço um curso gratuito</strong> de como<br />
+              criar a sua primeira landing page!
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="conteudo">
+          <h2 id="sobre" class="container-title">Quem sou eu?</h2>
+
+          <p class="container-paragrafo">
+            Sou estudante de ADS, adoro adquirir<br />
+            conhecimento, passar meu tempo<br />
+            assistindo animes e/ou jogando.
+          </p>
+        </div>
+      </section>
+
+      <!--Tabela-->
+      <section class="container">
+        <div class="conteudo">
+          <h2 id="formacao" class="container-title">Formação</h2>
+          <table>
+            <tr>
+              <th>Nível</th>
+              <th>Instituição</th>
+              <th>Período</th>
+            </tr>
+            <tr>
+              <td>Graduação</td>
+              <td>UNISUAM</td>
+              <td>Previsão de conclusão em 2025</td>
+            </tr>
+            <tr>
+              <td>Inglês Avançado</td>
+              <td>Cultura Norte Americana</td>
+              <td>Previsão de conclusão em 2024</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <section id="container-com-borda">
+        <div class="conteudo">
+          <h2 id="portifolio" class="container-title">Portifólio</h2>
+          <img
+            class="container-imagem2"
+            src="imagens/portfolio.jpg"
+            alt="Portifólio de Rafael"
+          />
+
+          <p class="container-paragrafo">
+            Meu primeiro projeto, feito no início de 2023.
+          </p>
+        </div>
+      </section>
+
+      <!--Formulario-->
+
+      <section class="container">
+        <div class="conteudo">
+          <h1 id="contato" class="container-title-form">Entre em contato</h1>
+      
+      <div class="form-container">
+        <section class="form-header">
+          <h2>Complete suas informações</h2>
+        </section>
+        <div id="msgError"> </div>
+        <div id="msgSuccess"> </div>
+        <form action="https://www.unisuam.edu.br/" class="form" id="form">
+          <fieldset class="form-control">
+            <label for="username">Nome *</label>
+            <input type="text" name="username" id="username" />
+            <i
+              ><img
+                class="img-success"
+                src="imagens/success-icon.svg"
+                alt="Campo preenchido corretamente"
+            /></i>
+            <i
+              ><img
+                class="img-error"
+                src="imagens/error-icon.svg"
+                alt="Campo preenchido incorretamente"
+            /></i>
+            <small>Error message</small>
+          </fieldset>
+
+          <fieldset class="form-control">
+            <label for="age">Idade *</label>
+            <input type="number" name="age" id="age" maxlength="2" />
+            <i
+              ><img
+                class="img-success"
+                src="imagens/success-icon.svg"
+                alt="Campo preenchido corretamente"
+            /></i>
+            <i
+              ><img
+                class="img-error"
+                src="imagens/error-icon.svg"
+                alt="Campo preenchido incorretamente"
+            /></i>
+            <small>Error message</small>
+          </fieldset>
+
+          <fieldset class="form-control">
+            <label for="address">Endereço </label>
+            <input type="text" name="address" id="address" />
+            <i
+              ><img
+                class="img-success"
+                src="imagens/success-icon.svg"
+                alt="Campo preenchido corretamente"
+            /></i>
+            <i
+              ><img
+                class="img-error"
+                src="imagens/error-icon.svg"
+                alt="Campo preenchido incorretamente"
+            /></i>
+            <small>Error message</small>
+          </fieldset>
+
+          <fieldset class="form-control">
+            <label for="login">Login *</label>
+            <input type="text" name="login" id="login" />
+            <i
+              ><img
+                class="img-success"
+                src="imagens/success-icon.svg"
+                alt="Campo preenchido corretamente"
+            /></i>
+            <i
+              ><img
+                class="img-error"
+                src="imagens/error-icon.svg"
+                alt="Campo preenchido incorretamente"
+            /></i>
+            <small>Error message</small>
+          </fieldset>
+
+          <fieldset class="form-control">
+            <label for="password">Senha *</label>
+            <input type="password" name="password" id="password" />
+            <i
+              ><img
+                class="img-success"
+                src="imagens/success-icon.svg"
+                alt="Campo preenchido corretamente"
+            /></i>
+            <i
+              ><img
+                class="img-error"
+                src="imagens/error-icon.svg"
+                alt="Campo preenchido incorretamente"
+            /></i>
+            <small>Error message</small>
+          </fieldset>
+
+          <fieldset class="form-control">
+            <label for="passwordtwo">Confirmar Senha *</label>
+            <input type="password" name="passwordtwo" id="passwordtwo" />
+            <i
+              ><img
+                class="img-sucess"
+                src="imagens/success-icon.svg"
+                alt="Campo preenchido corretamente"
+            /></i>
+            <i
+              ><img
+                class="img-error"
+                src="imagens/error-icon.svg"
+                alt="Campo preenchido incorretamente"
+            /></i>
+            <small>Error message</small>
+          </fieldset>
+          <button type="submit">ENVIAR</button>
+        </form>
+      </div>
+    </section>
+          
+      <!--Footer-->
+      <footer class="rodape">
+        <div class="conteudo">
+          <img src="imagens/logo.png" alt="Logo de Rafael" />
+        </div>
+
+        <div class="conteudo">
+          <p>© Todos os direitos reservados por Rafael Marques Baptista</p>
+          <a id="voltar-topo" href="#topo">Voltar ao topo</a>
+        </div>
+      </footer>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
